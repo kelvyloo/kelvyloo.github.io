@@ -5,29 +5,61 @@
         <title>Home</title>
 
         <style type="text/css">
+            /* Navigation Bar */
             body {
                 margin: 0;
             }
             ul {
                 list-style-type: none;
-                background-color: #333;
                 margin: 0;
                 padding: 0;
-                text-align: center;
+                overflow: hidden;
+                background-color: #333;
+                text-align: left;
             }
             li {
                 display: inline-block;
+                font-family: verdana;
+                font-size: 14px;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                padding: 14px 16px;
+            }
+            li a:hover {
+                background-color: #111;
+            }
+            /* Footer */
+            footer {
+                position: fixed;
+                bottom: 0;
+                padding: 0;
+                width: 100%;
+                color: white;
+                text-align: center;
+                background-color: #333;
+                font-family: verdana;
+                font-size: 14px;
+                padding: 14px 16px;
             }
         </style>
     </head>
 
+    <!-- Navigation Bar -->
     <body>
         <ul>
-            <li><a href=Home</a>Home</li>
-            <li><a href=Home</a>Link 1</li>
-            <li><a href=Home</a>Link 2</li>
-            <li><a href=Home</a>Link 3</li>
+            <li><a href=#>Home</a></li>
+            <li><a href=#>About Me</a></li>
+            <li><a href=#>Projects</a></li>
+            <li><a href=#>Resume</a></li>
         </ul>
+
+        <footer>
+            FOOTER
+        </footer>
     </body>
 
 </html>
