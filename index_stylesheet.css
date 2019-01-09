@@ -1,6 +1,9 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
 body {
     margin: 0;
 }
+/* Navigation Bar */
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -26,6 +29,7 @@ nav ul li a:hover {
     background-color: #111;
 }
 
+
 /* Footer */
 footer {
     position: fixed;
@@ -39,4 +43,30 @@ footer {
     font-size: 14px;
     padding: 14px 16px;
     text-transform: uppercase;
+}
+
+/* Social Media Icons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 4px 1px;
+	border-radius: 30%;
+}
+
+.fa-linkedin {
+	padding: 10px 14px;
+	-o-transition: .5s;
+	-ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #333;
+    color: white;
+}
+
+.fa-linkedin:hover {
+	background-color: #0073a4;
 }
