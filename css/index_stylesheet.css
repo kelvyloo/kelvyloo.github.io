@@ -1,7 +1,6 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
-
 body {
     margin: 0;
+    background-image: url("../images/background_img.jpg");
 }
 /* Navigation Bar */
 nav ul{
@@ -11,12 +10,16 @@ nav ul{
     overflow: hidden;
     background-color: #333;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 nav ul li {
     display: inline-block;
-    font-family: verdana;
-    font-size: 16px;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
+    font-weight: 500;
 }
 nav ul li a {
     display: block;
@@ -28,7 +31,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 }
-
 
 /* Footer */
 footer {
