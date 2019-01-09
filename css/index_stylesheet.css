@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url("https://kelvyloo.github.io/bg_img.JPG") no-repeat center center fixed;
+    background: url("https://kelvyloo.github.io/images/bg_img_rotated.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,7 +10,7 @@ body {
 nav ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0  ;
     overflow: hidden;
     background-color: #333;
     text-align: center;
